@@ -4,7 +4,7 @@ let cloud = null
 // #ifdef MP-WEIXIN
 // 小程序环境：直接用 wx.cloud，方便又快捷
 wx.cloud.init({
-  env: 'cloud1-d6gpi1iuo4990c753' // 如 course-planner-xxx
+  env: '你的云环境ID',  // 记得改成你自己的
 })
 cloud = wx.cloud
 // #endif
@@ -13,7 +13,7 @@ cloud = wx.cloud
 // APP、H5 环境：用腾讯云Web SDK，需先安装 npm install @cloudbase/js-sdk
 import cloudbase from '@cloudbase/js-sdk'
 const app   = cloudbase.init({
-  env: 'cloud1-d6gpi1iuo4990c753'
+  env: '你的云环境ID'
 })
 // 匿名登录，权限仅限数据库读
 const auth = app.auth({ persistence: 'local' })
