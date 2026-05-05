@@ -1,0 +1,16 @@
+# 编译生成的文件
+unpackage/
+node_modules/
+
+# 微信开发者工具本地数据
+*.log
+.miniprogram/
+
+# IDE配置（如果不想公开）
+.hbuilderx/
+.idea/
+.vscode/
+
+# 操作系统杂项
+.DS_Store
+Thumbs.db

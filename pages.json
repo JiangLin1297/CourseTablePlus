@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "课程表Plus",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/schedule/index",
+      "style": {
+        "navigationBarTitleText": "日程提醒",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/add-course/index",
+      "style": {
+        "navigationBarTitleText": "添加课程"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+	{
+	  "path": "pages/course-detail/index",
+	  "style": { "navigationBarTitleText": "课程详情" }
+	},
+	{
+	  "path": "pages/add-task/index",
+	  "style": { "navigationBarTitleText": "添加任务" }
+	},
+	{
+	  "path": "pages/group/create",
+	  "style": { "navigationBarTitleText": "创建小组" }
+	}
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4A90E2",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "课表"
+      },
+      {
+        "pagePath": "pages/schedule/index",
+        "text": "日程提醒"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "课程表Plus",
+    "navigationBarBackgroundColor": "#4A90E2"
+  },
+  "uniIdRouter": {}
+}
